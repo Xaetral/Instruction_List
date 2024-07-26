@@ -31,3 +31,25 @@ Memory Address Manipulations:
 - CGEZ [Register] [Value]: "Call if register is Greater than or Equal to Zero" set the next program address to value and store the current address if the register is greater than or equal to zero
 - CLEZ [Register] [Value]: "Call if register is Less than or Equal to Zero" set the next program address to value and store the current address if the register is less than or equal to zero
 - RET: "RETurn" set the next program address to the last stored address
+
+Arithmetics and Logic Operations:
+- NEG:
+- ADD:
+- SUB:
+- MUL:
+- DIV:
+- MOD:
+
+- NOT:
+- OR:
+- NOR:
+- AND:
+- NAND:
+- XOR:
+- XNOR:
+
+- RAS: "Right Arithmetic Shift"
+- LAS: "Left Arithmetic Shift"
+- RCS: "Right Circular Shift"
+- LCS: "Left Circular Shift"
+- RLS: "Right Logical Shift"
