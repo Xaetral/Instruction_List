@@ -33,12 +33,12 @@ Memory Address Manipulations:
 - RET: "RETurn" set the next program address to the last stored address
 
 Arithmetics and Logic Operations:
-- NEG:
-- ADD:
-- SUB:
-- MUL:
-- DIV:
-- MOD:
+- NEG: "NEGation"
+- ADD: "ADDition"
+- SUB: "SUBtraction"
+- MUL: "MULtiplication"
+- DIV: "DIVision"
+- MOD: "MODulo"
 
 - NOT:
 - OR:
