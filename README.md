@@ -40,13 +40,13 @@ Arithmetics and Logic Operations:
 - DIV: "DIVision"
 - MOD: "MODulo"
 
-- NOT:
-- OR:
-- NOR:
-- AND:
-- NAND:
-- XOR:
-- XNOR:
+- NOT: "bitwise NOT"
+- OR: "bitwise OR"
+- NOR: "bitwise NOR"
+- AND: "bitwise AND"
+- NAND: "bitwise NAND"
+- XOR: "bitwise XOR"
+- XNOR: "bitwise XNOR"
 
 - RAS: "Right Arithmetic Shift"
 - LAS: "Left Arithmetic Shift"
