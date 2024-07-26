@@ -1,7 +1,7 @@
 # Instruction List
 
 Data Logistics:
-- CPY [Register 1] [Register 2]: "CoPY" write the value of register 1 into register 2
+- CPY [Register 1] [Register 2] [Register 3]: "CoPY" write the value of register 1 into register 2 and register 3
 - SWP [Register 1] [Register 2]: "SWaP" write the value of register 1 into register 2 and write the value of register 2 into register 1 at the same time
 - STLS: "SeT Least Significant bits"
 - STMS: "SeT Most Significant bits"
