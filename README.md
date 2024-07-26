@@ -15,19 +15,19 @@ Memory Address Manipulations:
 - BGEZ [Register] [Value]: "Branch if register is Greater than or Equal to Zero" set the next program address to value if the register is greater than or equal to zero
 - BLEZ [Register] [Value]: "Branch if register is Less than or Equal to Zero" set the next program address to value if the register is less than or equal to zero
 
-- BVAB [Value] (alias JMP): "Branch from Value, ABsolute" jump to the address equal to value
-- BVRO [Value] (alias JRO): "Branch from Value, Relative to Origin" jump to the address equal to the current address plus value
-- BVEQ (alias JEQ): "Branch if the Value is EQual"
-- BVNE (alias JNE):
-- BVGT (alias JGT):
-- BVLT (alias JLT):
-- BVGE (alias JGE):
-- BVLE (alias JLE):
-- BRAB:
-- BRRO:
-- BREQ:
-- BRNE:
-- BRGT:
-- BRLT:
-- BRGE:
-- BRLE:
+- JMP [Value]: "JuMP" set the next program address to the sum of the current program address and value
+- JEQZ [Register] [Value]: "Jump if register is EQual to Zero" set the next program address to the sum of the current program address and value if the register is equal to zero
+- JNEZ [Register] [Value]: "Jump if register is Not Equal to Zero" set the next program address to the sum of the current program address and value if the register is not equal to zero
+- JGTZ [Register] [Value]: "Jump if register is Greater Than Zero" set the next program address to the sum of the current program address and value if the register is greater than zero
+- JLTZ [Register] [Value]: "Jump if register is Less Than Zero" set the next program address to the sum of the current program address and value if the register is less than zero
+- JGEZ [Register] [Value]: "Jump if register is Greater than or Equal to Zero" set the next program address to the sum of the current program address and value if the register is greater than or equal to zero
+- JLEZ [Register] [Value]: "Jump if register is Less than or Equal to Zero" set the next program address to the sum of the current program address and value if the register is less than or equal to zero
+
+- CALL [Value]: "CALL"
+- CEQZ [Register] [Value]: "Call if register is EQual to Zero" set the next program address to value if the register is equal to zero
+- CNEZ [Register] [Value]: "Call if register is Not Equal to Zero" set the next program address to value if the register is not equal to zero
+- CGTZ [Register] [Value]: "Call if register is Greater Than Zero" set the next program address to value if the register is greater than zero
+- CLTZ [Register] [Value]: "Call if register is Less Than Zero" set the next program address to value if the register is less than zero
+- CGEZ [Register] [Value]: "Call if register is Greater than or Equal to Zero" set the next program address to value if the register is greater than or equal to zero
+- CLEZ [Register] [Value]: "Call if register is Less than or Equal to Zero" set the next program address to value if the register is less than or equal to zero
+- RET: "RETurn"
