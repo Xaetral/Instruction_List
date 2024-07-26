@@ -14,6 +14,13 @@ Memory Address Manipulations:
 - BLTZ [Register] [Value]: "Branch if register is Less Than Zero" set the next program address to value if the register is less than zero
 - BGEZ [Register] [Value]: "Branch if register is Greater than or Equal to Zero" set the next program address to value if the register is greater than or equal to zero
 - BLEZ [Register] [Value]: "Branch if register is Less than or Equal to Zero" set the next program address to value if the register is less than or equal to zero
+- 
+- BREQ [Register 1] [Register 2] [Register 3]: "Branch if Register are EQual" set the next program address to the value of register 3 if register 1 and register 2 are equal
+- BRNE [Register 1] [Register 2] [Register 3]: "Branch if Register are Not Equal" set the next program address to the value of register 3 if register 1 and register 2 are not equal
+- BRGT [Register 1] [Register 2] [Register 3]: "Branch if Register are Greater Than" set the next program address to the value of register 3 if register 1 is greater than register 2
+- BRLT [Register 1] [Register 2] [Register 3]: "Branch if Register are Less Than" set the next program address to the value of register 3 if register 1 is less than register 2
+- BRGE [Register 1] [Register 2] [Register 3]: "Branch if Register are Greater than or Equal" set the next program address to the value of register 3 if register 1 is greater than or equal to register 2
+- BRLE [Register 1] [Register 2] [Register 3]: "Branch if Register are Less than or Equal" set the next program address to the value of register 3 if register 1 is less than or equal to register 2
 
 - JMP [Value]: "JuMP" set the next program address to the sum of the current program address and value
 - JEQZ [Register] [Value]: "Jump if register is EQual to Zero" set the next program address to the sum of the current program address and value if the register is equal to zero
