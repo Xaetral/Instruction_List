@@ -1,10 +1,10 @@
 # Instruction List
 
-Special:
+Special (2):
 - NOP: "No OPeration" does nothing except going to the next instruction
 - HALT: alias for JMP 0
 
-Data Logistics:
+Data Logistics (7):
 - CPY [Register 1] [Register 2]: "CoPY" write the value of register 1 to register 2
 - SWP [Register 1] [Register 2]: "SWaP" write the value of register 1 into register 2 and write the value of register 2 into register 1 at the same time
 - STLS [Value] [Register]: "SeT Least Significant bits" write the value to the lower half of the register
@@ -13,7 +13,7 @@ Data Logistics:
 - SAVE [Register] [Address]: write the value of the register at the address
 - DRF [Register 1] [Register 2]: "DeReFerencing" load the value contained at the address equal to the value of register 1 into register 2
 
-Memory Address Manipulations:
+Memory Address Manipulations (40):
 - BRCH [Value]: "BRanCH" set the next program address to value
 - BEQZ [Register] [Value]: "Branch if register is EQual to Zero" set the next program address to value if the register is equal to zero
 - BNEZ [Register] [Value]: "Branch if register is Not Equal to Zero" set the next program address to value if the register is not equal to zero
@@ -57,7 +57,7 @@ Memory Address Manipulations:
 - CRLE [Register 1] [Register 2] [Register 3]: "Call if Register is Less than or Equal to the other" set the next program address to the value of register 3 and store the current address if register 1 is less than or equal to register 2
 - RET: "RETurn" set the next program address to the last stored address
 
-Arithmetics and Logic Operations:
+Arithmetics and Logic Operations (18):
 - NEG: "NEGation"
 - ADD: "ADDition"
 - SUB: "SUBtraction"
@@ -78,3 +78,5 @@ Arithmetics and Logic Operations:
 - RCS: "Right Circular Shift"
 - LCS: "Left Circular Shift"
 - RLS: "Right Logical Shift"
+
+Total: 67
