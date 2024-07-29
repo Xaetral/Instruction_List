@@ -1,6 +1,6 @@
 # Instruction List
 
-Timing (2):
+Timing (3):
 - NOP: "No OPeration" does nothing except going to the next instruction
 - SLP [Value]: "SLeeP" like a NOP except it jumps to the next instruction after value clock cycles
 - HALT: alias for JMP 0
@@ -80,4 +80,4 @@ Arithmetics and Logic Operations (18):
 - LCS: "Left Circular Shift"
 - RLS: "Right Logical Shift"
 
-Total: 67
+Total: 68
