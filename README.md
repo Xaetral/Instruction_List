@@ -1,7 +1,8 @@
 # Instruction List
 
-Special (2):
+Timing (2):
 - NOP: "No OPeration" does nothing except going to the next instruction
+- SLP [Value]: "SLeeP" like a NOP except it jumps to the next instruction after value clock cycles
 - HALT: alias for JMP 0
 
 Data Logistics (7):
