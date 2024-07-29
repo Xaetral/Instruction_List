@@ -34,7 +34,7 @@ Memory Address Manipulations:
 - JLEZ [Register] [Value]: "Jump if register is Less than or Equal to Zero" set the next program address to the sum of the current program address and value if the register is less than or equal to zero
 - (jump from register)
 
-- CALL [Value]: "CALL" set the next program address to value and store the current address
+- CALL [Value]: set the next program address to value and store the current address
 - CEQZ [Register] [Value]: "Call if register is EQual to Zero" set the next program address to value and store the current address if the register is equal to zero
 - CNEZ [Register] [Value]: "Call if register is Not Equal to Zero" set the next program address to value and store the current address if the register is not equal to zero
 - CGTZ [Register] [Value]: "Call if register is Greater Than Zero" set the next program address to value and store the current address if the register is greater than zero
