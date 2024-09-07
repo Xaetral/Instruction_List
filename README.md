@@ -1,9 +1,9 @@
 # Instruction List
 
 Timing (3):
-- NOP: "No OPeration" does nothing except going to the next instruction
+- NOP: "No OPeration" does nothing except going to the next instruction (made with a relative jump of 1)
 - SLP [Value]: "SLeeP" like a NOP except it jumps to the next instruction after value clock cycles
-- HALT: alias for JMP 0
+- HALT: alias for a relative jump of 0
 
 Data Logistics (7):
 - CPY [Register 1] [Register 2]: "CoPY" write the value of register 1 to register 2
@@ -59,14 +59,14 @@ Memory Address Manipulations (40):
 - RET: "RETurn" set the next program address to the last stored address
 
 Arithmetics and Logic Operations (18):
-- NEG: "NEGation"
+- NEG: "NEGation" (made from other operation)
 - ADD: "ADDition"
 - SUB: "SUBtraction"
 - MUL: "MULtiplication"
 - DIV: "DIVision"
 - MOD: "MODulo"
 
-- NOT: "bitwise NOT"
+- NOT: "bitwise NOT" (made from other operation)
 - OR: "bitwise OR"
 - NOR: "bitwise NOR"
 - AND: "bitwise AND"
