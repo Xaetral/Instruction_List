@@ -5,7 +5,7 @@ Timing (3):
 - SLP [Value]: "SLeeP" like a NOP except it jumps to the next instruction after value clock cycles
 - HALT: alias for a relative jump of 0
 
-Data Logistics (7):
+Data Logistics (8):
 - CPY [Register 1] [Register 2]: "CoPY" write the value of register 1 to register 2
 - SWP [Register 1] [Register 2]: "SWaP" write the value of register 1 into register 2 and write the value of register 2 into register 1 at the same time
 - STLS [Value] [Register]: "SeT Least Significant bits" write the value to the lower half of the register
@@ -81,4 +81,4 @@ Arithmetics and Logic Operations (18):
 - LCS: "Left Circular Shift"
 - RLS: "Right Logical Shift"
 
-Total: 68
+Total: 69 (nice)
